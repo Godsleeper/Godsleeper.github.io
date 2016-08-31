@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>categories | 躺玮要坐着学习</title>
+    <title>躺玮要坐着学习</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="唐玮">
@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-    <body>
-      <header>
-        <div>
+  <body>
+    <header>
+      <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.svg" alt="躺玮要坐着学习" title="躺玮要坐着学习"/></a>
@@ -60,22 +60,93 @@
 			</nav>			
 </div>
 
-      </header>
-      <div id="container">
-          
-<div class="archive-title" >
-<h2 class="category-icon">Categories</h2>
+    </header>
+    <div id="container">
+      <div id="main">
 
-<a data-src="/categories/javascript/" href="#javascript" title="javascript">javascript<sup>1</sup></a>
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2016/08/31/javascript设计模式-一-之单例模式/" title="javascript设计模式(一)之单例模式" itemprop="url">
+  
+    <h1 itemprop="name">javascript设计模式(一)之单例模式</h1>
+    
+     
+           <p itemprop="description" ></p>
+        
+    
+    <time datetime="2016-08-31T11:46:51.000Z" itemprop="datePublished">2016-08-31</time>
+  </a>
+</section>
+
 
 </div>
-<div id="main" class="archive-part">
-<div class="all-list-box"></div>
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+			<li><a href="/categories/javascript/" title="javascript">javascript<sup>1</sup></a></li>
+		
+		</ul>
 </div>
 
 
-      </div>
-      <script src="/js/jquery-2.1.0.min.js"></script>
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/javascript/" title="javascript">javascript<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> I&#39;m Tang in Southeast University <br/>
+			Thanks for visiting</p>
+	</section>
+	 
+	<div class="social-font clearfix">
+		
+		<a href="http://weibo.com/1967928903" target="_blank" title="weibo"></a>
+		
+		
+		
+		<a href="https://github.com/Godsleeper" target="_blank" title="github"></a>
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2016 
+		
+		<a href="https://godsleeper.github.io" target="_blank" title="唐玮">唐玮</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -124,26 +195,8 @@ $(document).ready(function(){
 
 
 
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var list    = $('.archive-title a'),
-      box     = $('.all-list-box'),
-      first   = $('.archive-title a:first-of-type');
-      box.load(first.attr('data-src').toString()+' #archive-page');
-      first.addClass('current');
-  list.each(function(){
-    $(this).click(function(){
-      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
-      box.load(listSrc);
-      list.removeClass('current');
-      $(this).addClass('current');
-     });  
-    });
-  }); 
-</script>
 
 
 
-
-    </body>
-   </html>
+  </body>
+ </html>
